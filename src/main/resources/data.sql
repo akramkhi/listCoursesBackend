@@ -1,0 +1,5 @@
+
+INSERT INTO liste_de_course(id, label,status, creation_Date) VALUES('cfc960557d3246788e1a82c7f90aa055', 'en cours','Liste de course', NOW());
+INSERT INTO article(id, liste_De_Course_Id, label ,status, nb_Items, update_Timestamp) VALUES('8224eabb3ea340c2944bc6172cb1a89a', 'cfc960557d3246788e1a82c7f90aa055', 'Sabre laser', 'A_PRENDRE', 2, NOW());
+INSERT INTO article(id, liste_De_Course_Id, label ,status, nb_Items, update_Timestamp) VALUES('ae29c4e1683d4987a725aa6742034ccf', 'cfc960557d3246788e1a82c7f90aa055', 'Licence IntelliJ', 'A_PRENDRE', 5, NOW());
+INSERT INTO article(id, liste_De_Course_Id, label ,status, nb_Items, update_Timestamp) VALUES('1a95270667f5428caee5c688fd8effb5', 'cfc960557d3246788e1a82c7f90aa055', 'Livre "Introducing Eventstorming" par Alberto Brandolini', 'A_PRENDRE', 1, NOW());
